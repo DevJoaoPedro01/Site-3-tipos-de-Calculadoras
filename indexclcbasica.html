@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><h1>Calculadora Plus</h1></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="indexclcbasica.html">Calculadora Básica</a>
+                    </li>
+                    <li>
+                        <a href="indexclcimc.html">Calculadora IMC</a>
+                    </li>
+                    <li>
+                        <a href="indexclcgas.html">Calculadora Combustível</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="formulario3">
+        <h1>Calculadora Básica</h1>
+        <img src="calcs.jpeg" alt=""></a>
+        <div></div>
+            <label>Primeiro Valor:</label>
+            <input type="text" id="campo1" name="campo1" placeholder="Primeiro valor:">
+            <br>
+            <br>
+            <label>Segundo Valor:</label>
+            <input type="text" id="campo2"  name="campo2" placeholder="Segundo valor:">
+            </br>
+            <br>
+            <input type="radio" id="opcao1" name="opcao" value="Soma">
+            <label>Soma</label>
+            <input type="radio" id="opcao2" name="opcao" value="Subtração">
+            <label>Subtração</label>
+            <input type="radio" id="opcao3" name="opcao" value="Multiplicação">
+            <label>Multiplicação</label>
+            <input type="radio" id="opcao4" name="opcao" value="Divisão">
+            <label>Divisão</label>
+            <div></div>
+            <button type="button" onclick="calculadoraBasica()">Calcular</button>
+        <div id="resultado">
+        </div>
+    </form>               
+</main>
+<footer>
+        <section id="contact">
+                        <h3>Nos acompanhe</h3>
+                        <ul class="links">
+                            <li>
+                                <a href="https://www.linkedin.com/in/erick-xavier-b77203253/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Erick">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/viviane-santos-a6a69127b" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Viviane">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-707a142a3/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link João Pedro">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="container3">
+                <p>
+                    &copy; Desenvolvido por Erick Peixoto, João Pedro Lopes, Viviane Santos - Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><h1>Calculadora Plus</h1></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="indexclcbasica.html">Calculadora Básica</a>
+                    </li>
+                    <li>
+                        <a href="indexclcimc.html">Calculadora IMC</a>
+                    </li>
+                    <li>
+                        <a href="indexclcgas.html">Calculadora Combustível</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="formulario2">
+        <h1>Calculadora de IMC</h1>
+        <a href=""><img src="imc.png" alt=""></a>
+        <br>
+            <label for="peso">Peso (Kg):</label>
+            <input type="text" id="peso" name="peso" required><br>
+            <br>
+            <label for="altura">Altura (Cm):</label>
+            <input type="text" id="altura" name="altura" required><br>
+            <br>
+            <button type="button" onclick="calculadoraIMC()">Calcular</button>
+            <div id="resultado">
+            </div>
+            <h3>Sempre procure orientação de um profissional de saúde!</h3> 
+            <br>
+            <br>
+
+            </form>               
+</main>
+<footer>
+        <section id="contact">
+                        <h3>Nos acompanhe</h3>
+                        <ul class="links">
+                            <li>
+                                <a href="https://www.linkedin.com/in/erick-xavier-b77203253/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Erick">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/viviane-santos-a6a69127b" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Viviane">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-707a142a3/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link João Pedro">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="container3">
+                <p>
+                    &copy; Desenvolvido por Erick Peixoto, João Pedro Lopes, Viviane Santos - Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>

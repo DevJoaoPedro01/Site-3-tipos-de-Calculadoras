@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html"><h1>Calculadora Plus</h1></a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="indexclcbasica.html">Calculadora Básica</a>
+                    </li>
+                    <li>
+                        <a href="indexclcimc.html">Calculadora IMC</a>
+                    </li>
+                    <li>
+                        <a href="indexclcgas.html">Calculadora Combustível</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="formulario">
+        <h1>Calculadora Combustível</h1>
+        <a href=""><img src="combustivel1.png" alt=""></a>
+        <div>
+            <div>
+                <label for="precoGasolina">Preço Gasolina (R$/L):</label><br>
+                <input type="text" id="precoGasolina" name="precoGasolina" step="0.01" required><br>
+                <BR>
+                <label for="precoAlcool">Preço Álcool (R$/L):</label><br>
+                <input type="text" id="precoAlcool" name="precoAlcool" step="0.01" required><br>
+                <BR>
+                <label for="litrosGasolina">Litros Gasolina (L):</label><br>
+                <input type="text" id="litrosGasolina" name="litrosGasolina" required><br>
+                <BR>
+                <label for="litrosAlcool">Litros Álcool(L):</label><br>
+                <input type="text" id="litrosAlcool" name="litrosAlcool" required><br>
+                <BR>
+                <button type="button" onclick="calcularCombustivel()">Calcular</button><br>
+                <p id="resultadoCombustivel"></p>
+                <br>
+                <br>
+          </div>
+          <br>
+    </form>               
+</main>
+<footer>
+        <section id="contact">
+                        <h3>Nos acompanhe</h3>
+                        <ul class="links">
+                            <li>
+                                <a href="https://www.linkedin.com/in/erick-xavier-b77203253/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Erick">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/viviane-santos-a6a69127b" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link Viviane">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-707a142a3/" title="Siga-nos no Linkedin">
+                                    <img src="linkedin.png" alt="link João Pedro">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <div class="container3">
+                <p>
+                    &copy; Desenvolvido por Erick Peixoto, João Pedro Lopes, Viviane Santos - Todos os direitos reservados - 2024
+                </p>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>
